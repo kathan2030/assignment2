@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comicraft Inspired Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-area">
+            <a href="#" class="logo">ComicCraft</a>
+            <a href="#" class="find-style">Find Your Style</a>
+        </div>
+        <nav>
+            <a href="#">Comic Categories</a>
+            <button class="join-fun">Join the Fun</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Unleash Your Creativity</h1>
+            <p>Design your own comic strips with ease.</p>
+            <button class="start-creating">Start Creating Now</button>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.jpg" alt="Person working on comics">
+        </div>
+    </section>
+
+</body>
+</html>
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0ead6; /* Light beige background */
+    color: #594a4e; /* Dark brownish-grey text */
+}
+
+header {
+    background-color: #a3b18a; /* Olive green header */
+    color: #344e41; /* Dark green header text */
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 20px;
+}
+
+.find-style {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    color: #344e41;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav button.join-fun {
+    background-color: #e07a5f; /* Terracotta/Orange button */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px 30px;
+    background-color: #3a5a40; /* Dark green hero background */
+    color: #f0ead6; /* Light beige text on hero */
+}
+
+.hero-text {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.hero-text h1 {
+    font-size: 3.5em;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.hero-text button.start-creating {
+    background-color: #f4a261; /* Orange button */
+    color: #344e41; /* Dark green text on button */
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+/* Add more CSS for other sections and finer details */
+
+<section class="features-section">
+    <h2>Bring Your Stories to Life</h2>
+    <p class="section-subtitle">Create, Share, and Collaborate</p>
+    <div class="features-grid">
+        <div class="feature-card">
+            <div class="feature-image">
+                <img src="feature-1.jpg" alt="Craft Comics Like a Pro">
+            </div>
+            <div class="feature-content">
+                <h3 class="feature-title">Craft Comics Like a Pro</h3>
+                <p class="feature-description">Simple drag-and-drop interface</p>
+                <a href="#" class="feature-link">Get Started Today</a>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-image">
+                <img src="feature-2.jpg" alt="Endless Customization Options">
+            </div>
+            <div class="feature-content">
+                <h3 class="feature-title">Endless Customization Options</h3>
+                <p class="feature-description">Choose from a variety of assets</p>
+                <a href="#" class="feature-link">Explore Your Options</a>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-image">
+                <img src="feature-3.jpg" alt="Work together on comic strips">
+            </div>
+            <div class="feature-content">
+                <h3 class="feature-title">Work together on comic strips</h3>
+                <p class="feature-description">Share your creations with the world</p>
+                <a href="#" class="feature-link">Show Your Work</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+.features-section {
+    padding: 60px 30px;
+    background-color: #f0ead6; /* Light beige background */
+    text-align: center;
+}
+
+.features-section h2 {
+    font-size: 2.5em;
+    color: #594a4e; /* Dark brownish-grey */
+    margin-bottom: 10px;
+}
+
+.features-section .section-subtitle {
+    color: #594a4e; /* Dark brownish-grey */
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.feature-card {
+    background-color: #fff; /* White card background */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.feature-image {
+    overflow: hidden;
+}
+
+.feature-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.feature-content {
+    padding: 20px;
+}
+
+.feature-title {
+    font-size: 1.5em;
+    color: #344e41; /* Dark green */
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    color: #594a4e; /* Dark brownish-grey */
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.feature-link {
+    display: inline-block;
+    color: #e07a5f; /* Terracotta/Orange */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.feature-link:hover {
+    text-decoration: underline;
+}
+
+
+<section class="how-it-works-section">
+    <h2>How It Works</h2>
+    <ol class="steps-list">
+        <li class="step">
+            <span class="step-number">1</span>
+            <div class="step-details">
+                <h3 class="step-title">Step 1: Choose Your Layout</h3>
+                <p class="step-description">Select from multi-panel layouts to start.</p>
+            </div>
+        </li>
+        <li class="step">
+            <span class="step-number">2</span>
+            <div class="step-details">
+                <h3 class="step-title">Step 2: Drag and Drop Assets</h3>
+                <p class="step-description">Easily add characters and backgrounds.</p>
+            </div>
+        </li>
+        <li class="step">
+            <span class="step-number">3</span>
+            <div class="step-details">
+                <h3 class="step-title">Step 3: Add Text and Share</h3>
+                <p class="step-description">Insert text bubbles and share your comic.</p>
+            </div>
+        </li>
+    </ol>
+</section>
+
+
+.how-it-works-section {
+    padding: 60px 30px;
+    background-color: #d9ead3; /* Light green background */
+    color: #386641; /* Dark green text */
+    text-align: left;
+}
+
+.how-it-works-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.steps-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid #a3b18a; /* Light olive green divider */
+}
+
+.step:last-child {
+    border-bottom: none;
+}
+
+.step-number {
+    font-size: 3em;
+    font-weight: bold;
+    color: #386641; /* Dark green */
+    margin-right: 30px;
+    line-height: 1;
+}
+
+.step-details {
+    flex-grow: 1;
+}
+
+.step-title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.step-description {
+    line-height: 1.6;
+    color: #594a4e; /* Dark brownish-grey */
+}
+
+
+<section class="mission-section">
+    <div class="mission-image">
+        <img src="mission-illustration.png" alt="Illustration of people creating">
+    </div>
+    <div class="mission-content">
+        <h2>Our Mission</h2>
+        <p>To empower storytellers to create and share their unique comic strips effortlessly.</p>
+    </div>
+</section>
+
+.mission-section {
+    padding: 60px 30px;
+    background-color: #3a5a40; /* Dark green background */
+    color: #f0ead6; /* Light beige text */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    gap: 40px; /* Space between image and text */
+}
+
+.mission-image {
+    flex: 0 0 40%; /* Adjust width as needed */
+    border-radius: 10px; /* Rounded corners for the image area */
+    overflow: hidden; /* Ensure image stays within rounded corners */
+}
+
+.mission-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.mission-content {
+    flex: 0 0 50%; /* Adjust width as needed */
+    text-align: left;
+}
+
+.mission-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.mission-content p {
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .mission-section {
+        flex-direction: column; /* Stack image and text on smaller screens */
+        text-align: center;
+    }
+
+    .mission-image {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .mission-content {
+        width: 80%;
+    }
+}
+
+
+<section class="community-section">
+    <div class="community-text">
+        <h2>Join the Comic Community!</h2>
+        <p>Connect with fellow creators and share ideas.</p>
+        <div class="community-buttons">
+            <a href="#" class="button primary-button">Get Involved</a>
+            <a href="#" class="button secondary-button">Learn More</a>
+        </div>
+    </div>
+    <div class="community-image">
+        <img src="community-illustration.png" alt="Illustration of a comic community">
+    </div>
+</section>
+
+.community-section {
+    padding: 60px 30px;
+    background-color: #f0ead6; /* Light beige background */
+    color: #594a4e; /* Dark brownish-grey text */
+    display: flex;
+    align-items: center;
+    justify-content: space-around; /* Distribute space around text and image */
+    gap: 40px; /* Space between text and image */
+}
+
+.community-text {
+    flex: 1;
+    text-align: left;
+}
+
+.community-text h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.community-text p {
+    font-size: 1.2em;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.community-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.primary-button {
+    background-color: #e07a5f; /* Terracotta/Orange */
+    color: white;
+    border: none;
+}
+
+.secondary-button {
+    background-color: transparent;
+    color: #e07a5f; /* Terracotta/Orange */
+    border: 1px solid #e07a5f;
+}
+
+.primary-button:hover,
+.secondary-button:hover {
+    opacity: 0.9;
+}
+
+.community-image {
+    flex: 1;
+    max-width: 400px; /* Adjust maximum width as needed */
+    border-radius: 10px; /* Rounded corners for the image */
+    overflow: hidden;
+}
+
+.community-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .community-section {
+        flex-direction: column; /* Stack text and image on smaller screens */
+        text-align: center;
+    }
+
+    .community-text {
+        margin-bottom: 30px;
+    }
+
+    .community-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .community-image {
+        max-width: 80%;
+    }
+}
+
+
+<section class="contact-section">
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p class="contact-subtitle">We're here to help!</p>
+        <div class="info-item">
+            <h3>Email</h3>
+            <p><a href="mailto:support@comicraft.com">support@comicraft.com</a></p>
+        </div>
+        <div class="info-item">
+            <h3>Phone</h3>
+            <p>+1 (555) 123-4567</p>
+        </div>
+        <div class="info-item">
+            <h3>Location</h3>
+            <p>123 Comic St, Cartoonville, CA</p>
+        </div>
+    </div>
+    <div class="contact-form">
+        <h3>Send us a message</h3>
+        <form>
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+        </form>
+    </div>
+</section>
+
+
+.contact-section {
+    padding: 60px 30px;
+    background-color: #f0ead6; /* Light beige background */
+    color: #594a4e; /* Dark brownish-grey text */
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.contact-info {
+    flex: 1;
+    text-align: left;
+    max-width: 400px;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info .contact-subtitle {
+    color: #594a4e;
+    margin-bottom: 30px;
+}
+
+.contact-info .info-item {
+    margin-bottom: 20px;
+}
+
+.contact-info h3 {
+    font-size: 1.2em;
+    color: #344e41; /* Dark green */
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #e07a5f; /* Terracotta/Orange */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-form {
+    flex: 1;
+    background-color: #e8e8d4; /* Light yellowish background for form */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.contact-form h3 {
+    font-size: 1.5em;
+    color: #344e41; /* Dark green */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #594a4e;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a3b18a; /* Light olive green border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    background-color: #e07a5f; /* Terracotta/Orange */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+}
+
+.submit-button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info {
+        margin-bottom: 40px;
+        max-width: 80%;
+    }
+
+    .contact-form {
+        max-width: 80%;
+    }
+}
